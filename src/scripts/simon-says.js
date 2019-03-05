@@ -36,11 +36,7 @@ const locations = [[1,1], [1,2], [1,3], [2,1], [2,2], [2,3]]
         }
     }
 
-function incrementLocation(locations) {
-    if (invalidLocation) {
-        return locations++
-    }
-}
+
 /*
     Since k is used as the loop counter, it will be the
     total number of locations, not the invalid ones. You
